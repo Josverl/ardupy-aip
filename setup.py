@@ -14,12 +14,13 @@ ArduPy Integrated Platform
 
 requirements = [
     'pyusb',
-    'demjson',
+    'demjson3',
     'pyserial',
     'colorama',
     'ardupy-mpfshell',
     'pip >= 20.1'
 ]
+python_requires='>=3'
 
 setup_requirements = [
     # TODO: put setup requirements (distutils extensions, etc.) here
@@ -55,8 +56,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Topic :: Software Development :: Build Tools",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",

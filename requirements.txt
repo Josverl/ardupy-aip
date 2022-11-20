@@ -1,6 +1,6 @@
 pyusb
 pyserial
-demjson
+demjson3
 colorama
 ardupy-mpfshell
 requests

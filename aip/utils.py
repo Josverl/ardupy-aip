@@ -27,7 +27,7 @@ import re
 import os
 import sys
 import json
-import demjson
+import demjson3 as demjson
 import stat
 
 from pip._internal.cli import cmdoptions
